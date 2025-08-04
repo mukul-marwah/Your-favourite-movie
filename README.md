@@ -4,8 +4,8 @@ This is a basic HTML form that lets users enter their favorite movie information
 
 
 Features
-Clean and simple layout
 
+Clean and simple layout
 
 Easy to customize
 
