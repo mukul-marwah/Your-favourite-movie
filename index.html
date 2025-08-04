@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8">
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<h1 id="title">Movie Survey Form</h1>
+<p id="description">Thank you for taking the time to fill this this form</p>
+<form id="survey-form" method="post" action="">
+<fieldset>
+  <label id="name-label" for="name" name="name">Name<input type="text" id="name" placeholder="Enter your name" required>
+</label>
+<label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required name="email">
+</label>
+<label id ="number-label" for="number">Age<Input id="number" min="6" max="120" type="number" placeholder="Age" name="age">
+</label>
+</fieldset>
+<fieldset>
+<label for"movie-name">Which is your favourite movie?<input id="movie-name" placeholder="Name of the Movie" required name="name-of-movie"></label>
+</fieldset>
+<fieldset>
+  <legend>What is the genre of the movie?</legend>
+    <label for="Action"><input type="checkbox" id="Action" value="1" class="Inline" name="action">Action</label>
+  <label for="sci-fi"><input value="2" type="checkbox" id="sci-fi" class="Inline" name="sci-fi">Sci-fi</label>
+  <label for="horror"><input type="checkbox" id="horror" value="3" class="Inline" name="horror">Horror</label>
+  <label for="Romance"><input value="4" type="checkbox" id="Romance" class="Inline" name="romance">Romance</label>
+  <label for="Thriller"><input type="checkbox" id="Thriller" value="5" class="Inline" name="thriller">Thriller</label>
+  <label for="Drama"><input value="6"type="checkbox" id="Drama" class="Inline" name="drama">Drama</label>
+  <label for="comedy"><input type="checkbox" id="comedy"value="7" class="Inline" name="comedy">Comedy</label>
+  <label for="Fantasy"><input type="checkbox" id="Fantasy" class="Inline" value="8" name="fantasy">Fantasy</label>
+  <label for="mystery"><input type="checkbox" id="mystery" class="Inline" value="9" name="mystery">Mystery</label>
+  <label for="Documentary"><input type="checkbox" id="Documentary" class="Inline"value="10" name="doc">Documentary</label>
+  <label for="other"><input type="checkbox" id="other" class="Inline" value="11" name="other">Other</label>
+<fieldset>
+<label for="dropdown">What did you like the most in the movie<select name="fav-part" id="dropdown"><option value="">(select one)</option>
+<option value="1">The Acting</option>
+<option value="2">The Plot</option>
+<option value="3">The Ending</option>
+<option value="4">Everything</option>
+</select></label>
+<label for="review">Write a brief review of the movie.<textarea id="review" placeholder="Write your review" rows="3" cols="30" name="review"></textarea>
+</fieldset>
+<legend>How many times have you seen the movie?</legend>
+<label for="no.1"><input id="no.1" type="radio" value="1" class="Inline" name="no.1" checked>One time</label>
+<label for="no.2"><input id="no.2" type="radio" value="2" class="Inline" name="no.1">Multiple times</label>
+<fieldset>
+<label for=""
+</fieldset>
+<input type="submit" value="Submit" id="submit">
+</form>
+</body>
+ </html>
+
+
